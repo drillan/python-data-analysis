@@ -6,4 +6,7 @@ root: intro
 chapters:
 - file: colab/tutorial
 - file: numpy/basic
+- file: pandas/about
+  sections:
+  - file: pandas/series
 - file: plotly/sample

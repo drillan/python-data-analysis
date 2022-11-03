@@ -4,5 +4,6 @@
 format: jb-book
 root: intro
 chapters:
-- file: numpy
-- file: plotly
+- file: colab/tutorial
+- file: numpy/basic
+- file: plotly/sample

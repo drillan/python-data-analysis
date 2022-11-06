@@ -9,4 +9,6 @@ chapters:
 - file: pandas/about
   sections:
   - file: pandas/series
+  - file: pandas/dataframe
+  - file: pandas/indexer
 - file: plotly/sample

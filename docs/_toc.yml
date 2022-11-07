@@ -11,4 +11,3 @@ chapters:
   - file: pandas/series
   - file: pandas/dataframe
   - file: pandas/indexer
-- file: plotly/sample

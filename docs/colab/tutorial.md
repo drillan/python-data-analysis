@@ -8,7 +8,7 @@ Colaboratory（略称: Colab）ではブラウザからPythonを記述し実行�
 
 早速、Colaboratoryを使ってみましょう。ブラウザから次のリンクにアクセスします。
 
-https://colab.research.google.com/
+[https://colab.research.google.com/](https://colab.research.google.com/)
 
 Googleアカウントによるログインを行っていない場合には「ログイン」ボタンよりログインし（ {numref}`colab_not_login` ①）、「ノートブックを新規作成」を選択します（ {numref}`colab_recent` ②）。
 
@@ -32,7 +32,7 @@ Colaboratoryの初期画面
 新規ノートブック
 ```
 
-作成されたノートブックは名前の変更ができます。ノートブック名を変更するには {numref}`colab_new_notebook` ③の「Untitled1.ipynb」を任意の名前に変更します。
+作成されたノートブックは名前の変更ができます。ノートブック名を変更するには {numref}`colab_new_notebook` ③の「Untitled#.ipynb」（#は数値）を任意の名前に変更します。
 
 {numref}`colab_new_notebook` ④はコードセルと呼ばれ、Pythonのコードが実行できます。コードセルに次のコードを記述し、実行してみましょう。 コードの実行は {numref}`colab_new_notebook` ⑤のボタンをクリックするか、「Shift+Enter」または「Ctrl+Enter」を入力します。
 

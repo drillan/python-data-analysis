@@ -11,3 +11,4 @@ chapters:
   - file: pandas/series
   - file: pandas/dataframe
   - file: pandas/indexer
+  - file: pandas/descriptive

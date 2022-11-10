@@ -35,4 +35,5 @@ repository_name = get_repository_name()
 p = Path(base_dir)
 for file_path in p.glob("**/*.ipynb"):
     if ".ipynb_checkpoints" not in str(file_path):
+        print(file_path)
         add_badge(repository_name, file_path)

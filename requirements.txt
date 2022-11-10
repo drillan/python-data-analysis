@@ -2,3 +2,5 @@ jupyter-book
 ipykernel
 pandas
 plotly
+blackcellmagic
+gitpython

@@ -4,3 +4,4 @@ pandas
 plotly
 blackcellmagic
 gitpython
+matplotlib

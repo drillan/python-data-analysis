@@ -32,6 +32,22 @@ Colaboratoryの初期画面
 新規ノートブック
 ```
 
+Colaboratoryの設定を変更します。「ツール」から「設定」を選択します（ {numref}`colab_config` ）。
+
+```{figure} ./images/colab_config.png
+:name: colab_config
+
+設定
+```
+
+インデント幅を変更します。「エディタ」から「インテント幅（スペース）」の値を4に変更して保存します（ {numref}`colab_editor` ）。
+
+```{figure} ./images/colab_editor.png
+:name: colab_editor
+
+エディタの設定
+```
+
 作成されたノートブックは名前の変更ができます。ノートブック名を変更するには {numref}`colab_new_notebook` ③の「Untitled#.ipynb」（#は数値）を任意の名前に変更します。
 
 {numref}`colab_new_notebook` ④はコードセルと呼ばれ、Pythonのコードが実行できます。コードセルに次のコードを記述し、実行してみましょう。 コードの実行は {numref}`colab_new_notebook` ⑤のボタンをクリックするか、「Shift+Enter」または「Ctrl+Enter」を入力します。

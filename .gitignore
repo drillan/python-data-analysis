@@ -163,3 +163,4 @@ cython_debug/
 build.sh
 _build/
 docs/conf.py
+work/

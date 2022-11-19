@@ -15,3 +15,8 @@ chapters:
   - file: pandas/descriptive
   - file: pandas/text
   - file: pandas/time_series
+  - file: pandas/tidydata
+  - file: pandas/groupby
+  - file: pandas/missing_data
+  - file: pandas/join
+- file: plotly/express

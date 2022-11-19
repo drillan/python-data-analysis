@@ -19,11 +19,12 @@ def add_badge(repository_name, file_path):
     first = nb["cells"][0]
     first_cell_type = first["cell_type"]
     first_source = first["source"]
-    if first_cell_type == "markdown" and first_source.startswith("[![Open In Colab]"):
-        return
     source = gen_badge_text(repository_name, file_path)
     new_cell = nbformat.v4.new_markdown_cell(source=source)
-    nb["cells"].insert(0, new_cell)
+    if first_cell_type == "markdown" and first_source.startswith("[![Open In Colab]"):
+        nb["cells"][0] = new_cell
+    else:
+        nb["cells"].insert(0, new_cell)
     new_nb = nbformat.v4.new_notebook()
     new_nb["cells"] = nb["cells"]
     nbformat.write(new_nb, file_path, version=4)

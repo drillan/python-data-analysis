@@ -19,4 +19,7 @@ chapters:
   - file: pandas/groupby
   - file: pandas/missing_data
   - file: pandas/join
-- file: plotly/express
+- file: plotly/about
+  sections:
+  - file: plotly/plotly_express
+  - file: plotly/visualizing_geographic_data

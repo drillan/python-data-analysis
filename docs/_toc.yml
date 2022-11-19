@@ -17,6 +17,7 @@ chapters:
   - file: pandas/time_series
   - file: pandas/tidydata
   - file: pandas/groupby
+  - file: pandas/categoricaldata
   - file: pandas/missing_data
   - file: pandas/join
 - file: plotly/about
